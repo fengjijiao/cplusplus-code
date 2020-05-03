@@ -38,3 +38,10 @@ int main ( )
     print(7);
     return 0;
 }
+/*
+na::print: 2
+na::print: 4
+na::print: 5
+nb::print: 6
+nb::print: 7
+*/
