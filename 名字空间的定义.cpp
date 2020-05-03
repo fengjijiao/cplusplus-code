@@ -27,3 +27,9 @@ int main ( )
     na::print2(5, 6);    // 指定na下的print2函数
     return 0;
 }
+/*
+na::print: 3
+nb::print: 4
+na::print: 5
+na::print: 6
+*/
