@@ -19,3 +19,6 @@ int main ( )
     cout << na::calc(6, 12) << endl;
     return 0;
 }
+/*
+18
+*/
