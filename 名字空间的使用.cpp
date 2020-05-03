@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 //使用 namespace声明名字空间，使用::指定所属的名字空间
+//使用“using namespace”可以使得后面不需要每次指定名字空间，相当于java中的import功能。不过，多次使用“using namespace”时，被指定的名字空间同时有效，很容易冲突。
 namespace na
 {
     void print(int n) {     //与名字空间nb的函数名相同
