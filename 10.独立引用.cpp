@@ -8,7 +8,7 @@
 using namespace std;
 int main( )
 {
-    int a ;
+    int a ;//默认值为0
     int &b = a;    //b和a实际上是同一变量
     b = 100;       //b赋值为100，也就是a赋值为100
     cout << a << endl;
