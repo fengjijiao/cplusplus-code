@@ -1,3 +1,5 @@
+#include <iostream>
+#include <cstring>
 int getDigits(int g) {//合并正负计算位数
     int i=0, c, y;
     while(true) {
@@ -18,7 +20,7 @@ int* getPosDigits(int g, int len) {//合并正负计算位数
     }
     int * arr;
     int c, y, j = len - 1;
-    arr = (int *) malloc(len);//采用动态内存分配可以在函数外部调用生成的指针，否则在函数执行后内容会被自动释放
+    arr = new int[len];//采用动态内存分配可以在函数外部调用生成的指针，否则在函数执行后内容会被自动释放
     memset(arr, 0 ,len);//全置0
     //std::cout << arr[1] << std::endl;
     if(g < 0) {//负数会增加第一位为-1
