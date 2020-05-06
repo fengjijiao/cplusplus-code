@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-typedef const double CONSTANT;
+typedef const double CONSTANT;//相当于const double == CONSTANT
 CONSTANT pi = 3.14159265;
 struct mytype {
     const int x;
