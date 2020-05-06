@@ -26,5 +26,5 @@ DERIVE
 BASE
 */
 /*
-在19行时进行了强制类型转换，从CDerive ---> CBase
+在19行时进行了类型转换，从CDerive ---> CBase
 */
